@@ -1,0 +1,283 @@
+                        #centered {
+                            text-align: center;
+                            display: block;
+                            margin-left: 20px;
+                            margin-right: 20px;
+                            margin-top: 120px;
+                        }
+                        
+                        #a:link {
+                            color: #ababab;
+                        }
+                        
+                        #div:hover {
+                            color: #00b39b;
+                        }
+                        
+                        #a:active {
+                            color: #00b39b;
+                        }
+                        
+                        h1 {
+                            font-size: 2.125rem;
+                            color: #00b39b;
+                            text-align: center;
+                        }
+                        
+                        .nav_menu {
+                            position: fixed;
+                            background-color: white;
+                            display: flex;
+                            justify-content: space-around;
+                            width: 100%;
+                            top: 0px;
+                        }
+                        
+                        #menu ul {
+                            list-style-type: none;
+                            text-align: left;
+                        }
+                        
+                        #menu li {
+                            float: left;
+                            margin: auto;
+                            padding: 0;
+                        }
+                        
+                        #menu li a {
+                            display: block;
+                            color: #ababab;
+                            text-decoration: none;
+                            padding: 5px;
+                        }
+                        
+                        #menu li a:hover {
+                            color: #00b39b;
+                        }
+                        
+                        #menu ul li ul {
+                            display: none;
+                        }
+                        
+                        #menu ul li:hover ul {
+                            display: block;
+                            box-shadow: 1px #ddd;
+                            width: 400px;
+                            background-color: white;
+                        }
+                        
+                        #menu li:hover ul li {
+                            float: none;
+                        }
+                        
+                        #menu li ul {
+                            position: absolute;
+                        }
+                        
+                        .inlinebody {
+                            display: flex;
+                            justify-content: space-around;
+                        }
+                        
+                        .txts1 {
+                            width: 430px;
+                        }
+                        
+                        h2 {
+                            font-size: 1.4rem;
+                            color: #ffffff;
+                        }
+                        
+                        #section1 {
+                            background-color: #00ccb1;
+                            height: 350px;
+                            width: 320px;
+                            padding: 40px 20px 0px;
+                            border-radius: 8px;
+                        }
+                        
+                        #section2 {
+                            background-color: #3d83df;
+                            height: 350px;
+                            width: 320px;
+                            padding: 40px 20px 0px;
+                            border-radius: 8px;
+                        }
+                        /* #memeligne2 {
+                            position: fixed;
+                        }
+                         */
+                        
+                        h3 {
+                            color: #00b39b;
+                            font-size: 1.625rem;
+                        }
+                        
+                        .flexhere {
+                            display: flex;
+                        }
+                        
+                        #docsec1 {
+                            display: flex;
+                            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+                            color: #747477;
+                            font-size: 1.6rem;
+                            font-weight: bold;
+                        }
+                        
+                        #docsec1 a:hover,
+                        #docsec1 a:active {
+                            color: #00b39b;
+                            text-decoration: none;
+                        }
+                        
+                        #docsec1 span a {
+                            color: #ddd;
+                            text-decoration: none;
+                        }
+                        
+                        .cacheimg {
+                            height: 200px;
+                            width: 200px;
+                            overflow: hidden;
+                            float: right;
+                        }
+                        
+                        .style-select {
+                            width: 20%;
+                            padding: 0 3.5em 0 1.5em;
+                        }
+                        
+                        .rtourligne {
+                            display: flex;
+                            flex-wrap: wrap;
+                            width: 730px;
+                            margin-left: 34px;
+                            margin-top: 31px;
+                            font-size: 25px;
+                        }
+                        
+                        #sectionworld {
+                            background-color: #e5faf8;
+                            height: 570px;
+                            width: 1131px;
+                            margin-top: 50px;
+                            margin-left: -10px;
+                            padding-left: 220px;
+                            overflow: hidden;
+                            display: flex;
+                        }
+                        
+                        #blocktextoworld {
+                            padding-right: 139px;
+                            height: 160px;
+                            width: 450px;
+                            padding: 40px 20px 0px;
+                        }
+                        
+                        #blocktextoworldimg {
+                            margin-left: -160px;
+                            margin-top: 40px;
+                        }
+                        
+                        #blocktextoworld2 {
+                            display: flex;
+                            flex-wrap: wrap;
+                        }
+                        
+                        .blocktextoworld2-1 {
+                            background: white;
+                            border-radius: 5px;
+                            box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .05);
+                            height: 215px;
+                            text-align: center;
+                            padding: 15px;
+                            font-size: .8125em;
+                            width: 190px;
+                            margin: 6px;
+                        }
+                        
+                        .sectionchange {
+                            padding: 30px 400px 10px;
+                        }
+                        
+                        .styletextchange {
+                            color: #747474;
+                            text-align: center;
+                        }
+                        /* .imgpays {
+                            display: flex;
+                            flex-wrap: wrap;
+                            margin-top: 70px;
+                            padding-left: 210px;
+                            padding-top: 10px;
+                        }
+                        
+                        .espacementimg {
+                            margin-left: 26px;
+                            margin-right: 26px;
+                        }
+                        
+                        .espacementimg2 {
+                            margin-top: 16px;
+                        } */
+                        
+                        .grid-container {
+                            display: grid;
+                            grid-column-gap: 40px;
+                            grid-row-gap: 35px;
+                            grid-template-columns: auto auto auto;
+                            padding: 10px;
+                        }
+                        
+                        .grid-item {
+                            padding: 20px;
+                            font-size: 30px;
+                            text-align: center;
+                        }
+                        
+                        .grid-soustitre {
+                            display: flex;
+                            margin-left: 28px;
+                            justify-content: space-between;
+                            margin-right: 27px;
+                        }
+                        
+                        .docsec1-1 {
+                            margin-left: 154px;
+                        }
+                        
+                        .boutoneffect {
+                            background-color: #007BFF;
+                            Color: white;
+                            font-weight: bold;
+                            padding: 2px 3px;
+                            border-radius: 3px;
+                            cursor: pointer;
+                            box-shadow: 0 8px 16px 0 grey;
+                            text-decoration: none;
+                            font-size: 25px;
+                        }
+                        
+                        .piedpage {
+                            text-align: center;
+                            font-size: .75em;
+                            color: #ababab;
+                        }
+                        /* @media querry  */
+                        
+                        @media screen and (max-width: 992px) {
+                            .nav_menu {
+                                background-color: blue;
+                                display: block;
+                                clear: both;
+                            }
+                        }
+                        
+                        @media screen and (max-width: 786px) {
+                            .nav_menu {
+                                display: block;
+                                clear: both;
+                                background-color: black;
+                            }
+                        }
